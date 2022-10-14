@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+
+	
+}
+.backimage{
+	
+	width:100%;
+	height:100vh;
+	background:#F8F8FF;
+	background-position:center;
+	background-size:cover;
+}
+
+.topbar{
+	
+	width:85%;
+	padding:35px 0;
+	margin:auto;
+	text-align: right;
+	
+	
+}
+
+.topbar ul li{
+	
+	list-style:none;
+	display:inline-block;
+	margin:0 10px;
+	position:relative;
+	width:50px;
+	font-size:15px;
+	padding:15px ;
+	text-align: center;
+	font-weight: bold;
+	color:#000000;
+	
+}
+
+.topbar ul li a{
+	
+	text-decoration:none;
+	color:#696969;
+	text-transform:uppercase;
+}
+
+.topbar ul li::after{
+	content:'';
+	height:3px;
+	width:0;
+	background:#1E90FF;
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	transition:0.5s;
+}
+	
+
+.topbar ul li:hover::after{
+	
+	width:100%;
+	
+}
+
+.copyright{
+	background:#F8F8FF;
+	padding:80px 50px 2px 50px;
+	text-align: center;
+	color:#696969;
+	font-size:15px;
+	
+}
+
+.formCon{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:2;
+	width:70%;
+	height:50%;
+	padding:40px 0;
+	justify-content:center;
+	text-align:center;
+	border-radius:20px;
+	background-color: #F5F5F5;
+	
+}
+
+.formCon h1{
+	
+	font-size:40px;
+    color:#1E90FF;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	padding: 0 0 15px 0;
+	
+}
+
+.formCon img{
+	
+	width:5%;
+	height:5%;
+	padding: 10px;
+	
+}
+
+.formCon ul li{
+	
+	list-style:none;
+	
+	
+}
+.formCon  li{
+	
+	font-size:18px;
+	font-family:"Lucida Console", "Courier New", monospace;
+	line-height: 1.5;
+	font-weight:bold;
+	
+}
+.formCon ul li a{
+	
+	text-decoration:none;
+	color:#000;
+	
+}

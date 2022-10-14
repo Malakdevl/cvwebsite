@@ -1,0 +1,302 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+
+	
+}
+.backimage{
+	
+	width:100%;
+	height:1100px;
+	background:#F8F8FF;
+	background-position:center;
+	background-size:cover;
+	
+}
+
+.topbar{
+	
+	width:85%;
+	padding:35px 0;
+	margin:auto;
+	text-align: right;
+	
+	
+}
+
+.topbar ul li{
+	
+	list-style:none;
+	display:inline-block;
+	margin:0 10px;
+	position:relative;
+	width:50px;
+	font-size:15px;
+	padding:15px ;
+	text-align: center;
+	font-weight: bold;
+	color:#000000;
+	
+}
+
+.topbar ul li a{
+	
+	text-decoration:none;
+	color:#696969;
+	text-transform:uppercase;
+}
+
+.topbar ul li::after{
+	content:'';
+	height:3px;
+	width:0;
+	background:#1E90FF;
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	transition:0.5s;
+}
+	
+
+.topbar ul li:hover::after{
+	
+	width:100%;
+	
+}
+
+
+.copyright{
+	background:#F8F8FF;
+	padding:80px 50px 2px 50px;
+	text-align: center;
+	color:#696969;
+	font-size:15px;
+	
+}
+
+.formback{
+	position:absolute;
+	top:60%;
+	left:30%;
+	transform:translate(-50%,-50%);
+	z-index:2;
+	width:30%;
+	height:50%;
+	padding:40px 0;
+	justify-content:center;
+	border-radius:15px;
+	background-color: #F5F5F5;
+	
+	
+}
+
+.formback img{
+	
+	transform:translate(90%,-230%);
+	width:35%;
+	height:35%;
+	bottom:0;
+	transition:bottom 1s, left 1s;
+	position:absolute;
+	
+}
+.formback:hover img{
+	
+	bottom:40px;
+}
+
+.formback h1{
+	
+	padding:20px;
+	color:#1E90FF;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	
+	
+	
+}
+.formback h5{
+	
+	padding:0 0 0 20px;
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+.formback p{
+	
+	padding:0 0 10px 20px;
+	font-size:15px;
+	font-family:"Lucida Console", "Courier New", monospace;
+	color:#1E90FF;
+	
+}
+
+
+.formback1{
+	position:absolute;
+	top:60%;
+	left:65%;
+	transform:translate(-50%,-50%);
+	z-index:2;
+	width:30%;
+	height:50%;
+	padding:40px 0;
+	justify-content:center;
+	border-radius:15px;
+	background-color: #F5F5F5;
+}
+
+.formback1 img{
+	
+	transform:translate(125%,-290%);
+	width:28%;
+	height:28%;
+	bottom:0;
+	transition:bottom 1s, left 1s;
+	position:absolute;
+	
+}
+.formback1:hover img{
+	
+	bottom:40px;
+}
+
+.formback1 h1{
+	
+	padding:20px;
+	color:#1E90FF;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+}
+.formback1 ul{
+	
+	padding:0 0 10px 30px;
+	
+}
+.formback1  li{
+	
+	font-size:15px;
+	font-family:"Lucida Console", "Courier New", monospace;
+	line-height: 1.5;
+	font-weight:bold;
+	
+}
+
+
+
+
+.formback2{
+	position:absolute;
+	top:130%;
+	left:30%;
+	transform:translate(-50%,-50%);
+	z-index:2;
+	width:30%;
+	height:50%;
+	padding:40px 0;
+	justify-content:center;
+	border-radius:15px;
+	background-color: #F5F5F5;
+	
+	
+}
+.formback2 img{
+	
+	transform:translate(130%,-260%);
+	width:30%;
+	height:30%;
+	bottom:0;
+	transition:bottom 1s, left 1s;
+	position:absolute;
+	
+}
+.formback2:hover img{
+	
+	bottom:40px;
+}
+
+.formback2 h1{
+	
+	padding:20px;
+	color:#1E90FF;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+}
+.formback2 h6{
+	
+	padding:0 0 0 20px;
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+.formback2 ul{
+	
+	padding:10px 0 10px 50px;
+	
+}
+.formback2  li{
+	
+	font-size:15px;
+	font-family:"Lucida Console", "Courier New", monospace;
+	line-height: 1.5;
+	
+}
+.formback2 p{
+	
+	padding:0 0 10px 20px;
+	font-size:15px;
+	font-family:"Lucida Console", "Courier New", monospace;
+	color:#1E90FF;
+	
+}
+
+.formback3{
+	position:absolute;
+	top:130%;
+	left:65%;
+	transform:translate(-50%,-50%);
+	z-index:2;
+	width:30%;
+	height:50%;
+	padding:40px 0;
+	justify-content:center;
+	border-radius:15px;
+	background-color: #F5F5F5;
+}
+
+.formback3 img{
+	
+	transform:translate(135%,-320%);
+	width:25%;
+	height:25%;
+	bottom:0;
+	transition:bottom 1s, left 1s;
+	position:absolute;
+	
+}
+.formback3:hover img{
+	
+	bottom:40px;
+}
+
+.formback3 h1{
+	
+	padding:20px;
+	color:#1E90FF;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+}
+.formback3 ul{
+	
+	padding:10px 0 10px 50px;
+	
+}
+.formback3  li{
+	
+	font-size:15px;
+	font-family:"Lucida Console", "Courier New", monospace;
+	line-height: 1.5;
+	font-weight:bold;
+	
+}
